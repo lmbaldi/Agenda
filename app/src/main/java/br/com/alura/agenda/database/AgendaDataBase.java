@@ -31,7 +31,6 @@ public abstract class AgendaDataBase extends RoomDatabase {
                     public void migrate(@NonNull SupportSQLiteDatabase database) {
                         //criar nova tabela com as informacoes desejadas
 
-
                         //copiar dados da tabela antiga para a nova
 
                         //remove tabela antiga
